@@ -60,3 +60,82 @@ padding-right: 102px;
 
 
 }
+
+/* ---------------------------------
+---second section blogs strats -----------
+----------------------------------------*/
+.blogs{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    width: 1050px;
+    height: 975px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    grid-row-gap: 27px;
+}
+.blog{
+    width: 330px;
+    height: 456px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.player-pic{
+    width: 300px;
+    height: 256px;
+    padding: 15px 15px 16px 15px;
+}
+.player-info{
+    width: 300px;
+    height: 154px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+      
+}
+.player-name{
+    font-size: 28px;
+}
+.player-info h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.description{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* social media section */
+.football-image{
+    width: 483.87px;
+height:110px;
+margin: 750px 481.13px 20px 475px;
+
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 14px;
+    width: 170px;
+    height: 32px;
+    margin-left: 631.94px;
+    margin-right: 638px;
+    margin-bottom: 0px;
+
+}
+.icon-size{
+    width: 32px;
+    height: 32px;
+}
+.copyright{
+    font-size: 16px;
+    width: 236px;
+    height: 31px;
+    margin: 2px 605px 63px 598.94px;
+}
+
