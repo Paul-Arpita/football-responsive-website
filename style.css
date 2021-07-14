@@ -171,23 +171,4 @@ background-color: lightslategray;
     transition: transform 2s ease;
 }
 
-nav > ul{
-    display: flex;
-}
-nav li{
-    list-style: none;
-    margin-right: 20px;
-    padding: 0px 10px;
-}
-nav li:hover{
-    background-color: lightgray;
-}
-nav li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-nav > ul > li:hover > ul{
-    display: block;
-}
 
