@@ -114,7 +114,7 @@ padding-right: 102px;
 .football-image{
     width: 483.87px;
 height:110px;
-margin: 750px 481.13px 20px 475px;
+margin: 70px 481.13px 20px 475px;
 
 }
 .icons{
@@ -137,5 +137,57 @@ margin: 750px 481.13px 20px 475px;
     width: 236px;
     height: 31px;
     margin: 2px 605px 63px 598.94px;
+}
+/* bonus portion */
+.videos{
+    width: 567px;
+    height: 427px;
+    
+
+
+}
+.title{
+    width: 400px;
+    height: 315px;
+    border: 1px solid lightgrey;
+    padding-right: 69px;
+text-align: center;
+color: black;
+background-color: lightslategray;
+    
+    
+}
+.highlights{
+    display: flex;
+    justify-content: center;
+    margin-left: 182px;
+    margin-right: 156px;
+    margin-top: 600px;
+    margin-bottom: 20px;
+    
+}
+.highlights:hover .title{
+    transform: scale(2);
+    transition: transform 2s ease;
+}
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav > ul > li:hover > ul{
+    display: block;
 }
 
