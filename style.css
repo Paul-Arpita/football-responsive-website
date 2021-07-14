@@ -54,8 +54,8 @@ padding-right: 102px;
     background-color: #E02C6D;
     margin-left: 156px;
     margin-bottom: 169px;
-    margin-bottom: 169px;
-    margin-left: 156px;
+    
+    
 
 
 
@@ -171,4 +171,39 @@ background-color: lightslategray;
     transition: transform 2s ease;
 }
 
-
+/* -----------------
+media queries
+-------------------- */
+@media only screen and (max-width:688px){
+    .banner-container{
+        
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        
+        height: 100%;
+    }
+    .banner{
+        justify-content: center;
+        align-items: center;
+    }
+    .highlights{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: flex-start;
+        
+    }
+}
+   
